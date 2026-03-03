@@ -2,112 +2,323 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kaizer Deeb | Service Delivery Engineer</title>
+    <title>James Harvey M. Mausisa | Service Delivery Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div id="top"></div>
 
 <header>
     <div class="container">
-        <h1>Kaizer Deeb</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1><a href="#top" class="logo">James Harvey M. Mausisa</a></h1>
+        <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#tools">Skills</a> <!-- #tools corresponds to Software Skills section -->
+    <a href="#publications">Publications</a> <!-- renamed and scrolls to Publications section -->
+    <a href="#contact">Contact</a>
+    <a href="https://raw.githubusercontent.com/kaydenlone/kaizer-portfolio/0eecc80ea6cf09233183d8448c12e455192fdb2f/CV.pdf" download="James_Harvey_Mausisa_CV.pdf" class="download-btn">Download CV</a>
+</nav>
     </div>
 </header>
 
-<section class="hero">
-    <div class="container">
-        <h2>Service Delivery Engineer | ECE Graduate | AI Enthusiast</h2>
-        <p>Building intelligent systems and delivering reliable technical solutions.</p>
-        <a href="#contact" class="btn">Get In Touch</a>
+<section class="hero modern-hero">
+    <div class="container hero-flex">
+        <div class="hero-text">
+            <h2>Service Delivery Engineer | ECE Graduate | AI Enthusiast</h2>
+            <p>Building intelligent systems and delivering reliable technical solutions.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="James Harvey M. Mausisa">
+        </div>
     </div>
 </section>
 
 <section id="about" class="section">
+    <section id="about" data-aos="fade-up">
     <div class="container">
         <h2>About Me</h2>
         <p>
-            Electronics and Communications Engineering graduate currently working as a 
-            Service Delivery Engineer. Experienced in network systems, troubleshooting, 
-            and AI-based research including cassava disease detection using EfficientNetB0.
-            Preparing for the ECE Board Examination this October.
+            Driven and adaptable Electronics and Communications Engineer, graduated from Mapúa University with a specialization in Microelectronics, passionate about solving problems and supporting innovative projects. Known for strong communication, teamwork, and problem-solving skills, I thrive in dynamic environments and enjoy collaborating to deliver effective solutions. Always eager to learn, grow, and contribute positively to every project I take on.
         </p>
     </div>
 </section>
 
-<section id="skills" class="section light">
-    <div class="container">
-        <h2>Skills</h2>
-        <div class="grid">
-            <div>
-                <h3>Technical</h3>
-                <ul>
-                    <li>Networking & Troubleshooting</li>
-                    <li>Python</li>
-                    <li>Deep Learning</li>
-                    <li>EfficientNetB0</li>
-                    <li>System Diagnostics</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git & GitHub</li>
-                    <li>Linux</li>
-                    <li>Notion</li>
-                    <li>Microsoft Excel</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <div class="container">
-        <h2>Projects</h2>
-        <div class="card">
-            <h3>Cassava Disease Detection System</h3>
-            <p>
-                Developed an AI-based detection system using EfficientNetB0 with image augmentation.
-                Achieved 94% accuracy on leaf classification and improved agricultural disease monitoring.
-            </p>
-        </div>
-    </div>
-</section>
-
 <section id="experience" class="section light">
-    <div class="container">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>Service Delivery Engineer</h3>
-            <p>TIM Engineering Systems Solutions Corp.</p>
-            <ul>
-                <li>Provided technical support and system diagnostics</li>
-                <li>Managed service requests and field deployments</li>
-                <li>Maintained client network and system reliability</li>
-            </ul>
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="experience-slider">
+      
+      <!-- Slide 1 -->
+      <div class="exp-slide active">
+        <div class="timeline-logo">
+          <img src="tim-logo.png" alt="TIM Engineering Logo">
         </div>
+        <div class="timeline-content">
+          <h3>Service Delivery Engineer</h3>
+          <h4>TIM Engineering Systems Solutions Corp. | Feb 2026 - Present</h4>
+          <ul>
+            <li>Deploys and configures IT infrastructure solutions</li>
+            <li>Manages system installations and migrations</li>
+            <li>Provides Level 1–3 technical support</li>
+            <li>Performs troubleshooting and root cause analysis</li>
+            <li>Ensures SLA compliance and system security</li>
+            <li>Prepares technical documentation and client support services</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="exp-slide">
+        <div class="timeline-logo">
+          <img src="usher-logo.png" alt="USHER Technologies Logo">
+        </div>
+        <div class="timeline-content">
+          <h3>Research & Development Intern</h3>
+          <h4>USHER Technologies Inc. | June 2024 - August 2024</h4>
+          <ul>
+            <li>Conducted research and data analysis</li>
+            <li>Developed project proposals and reports</li>
+            <li>Supported innovation initiatives and team collaboration</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="exp-slide">
+        <div class="timeline-logo">
+          <img src="caloocan-logo.png" alt="Caloocan City Hall Logo">
+        </div>
+        <div class="timeline-content">
+          <h3>Office Administration Intern</h3>
+          <h4>Caloocan City Hall | Aug 2019 - Oct 2019</h4>
+          <ul>
+            <li>Implemented policies and managed programs</li>
+            <li>Ensured accessibility and provided support</li>
+            <li>Advocated for rights and collaborated with organizations</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <button class="prev-btn">&#10094;</button>
+      <button class="next-btn">&#10095;</button>
+
+      <!-- Dots -->
+      <div class="exp-dots"></div>
     </div>
+  </div>
+</section>
+
+<section id="tools" class="partners-section">
+  <h2>Software Skills</h2>
+  <div class="partners-slider">
+    <div class="software-slide active">
+      <img src="vscode-logo.png" alt="VS Code">
+      <img src="github-logo.png" alt="GitHub">
+      <img src="python-logo.png" alt="Python">
+      <img src="matlab-logo.png" alt="MATLAB">
+    </div>
+    <div class="software-slide">
+      <img src="figma-logo.png" alt="Figma">
+      <img src="docker-logo.png" alt="Docker">
+      <img src="linux-logo.png" alt="Linux">
+      <img src="aws-logo.png" alt="AWS">
+    </div>
+  </div>
+  <div class="slider-dots"></div>
+</section>
+
+<section id="publications" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Publications</h2>
+
+    <div class="publication-card">
+      <h3>
+        <a href="YOUR_PUBLICATION_LINK_HERE" target="_blank" class="publication-link">
+          Deep Learning Approach to Cassava Disease Detection Using EfficientNetB0 and Image Augmentation
+        </a>
+      </h3>
+      <p class="publication-info">
+        Multidisciplinary Digital Publishing Institute (MDPI) | April 28, 2025
+      </p>
+      <p class="publication-description">
+        Developed a deep learning system to detect cassava diseases using EfficientNetB0 and image augmentation. 
+        Achieved high accuracy across leaves, stems, and tubers (94%, 90%, and 92%, respectively). The prototype, 
+        built with a Raspberry Pi and camera, allows farmers to quickly and reliably detect diseases, improving crop 
+        health, yield, and livelihoods.
+      </p>
+    </div>
+
+    <!-- Add more publications here -->
+  </div>
 </section>
 
 <section id="contact" class="section">
-    <div class="container">
+    <div class="container contact-container">
         <h2>Contact</h2>
-        <p>Email: your.email@email.com</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
-        <p>GitHub: github.com/yourusername</p>
+        <div class="contact-info">
+            <div>
+                <strong>Phone:</strong> +63 966 625 1759
+            </div>
+            <div>
+                <strong>Email:</strong> mausisa.james.harvey0@gmail.com
+            </div>
+            <div>
+                <strong>LinkedIn:</strong> linkedin.com/in/jamesharveymausisa
+            </div>
+        </div>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 Kaizer Deeb. All Rights Reserved.</p>
+    <div class="container footer-content">
+        <p>© 2026 James Harvey M. Mausisa</p>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
 </footer>
 
+<script>
+const slides = document.querySelectorAll('.slide');
+const nextBtn = document.querySelector('.next-btn');
+const prevBtn = document.querySelector('.prev-btn');
+let current = 0;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+    });
+}
+
+nextBtn.addEventListener('click', () => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+});
+
+prevBtn.addEventListener('click', () => {
+    current = (current - 1 + slides.length) % slides.length;
+    showSlide(current);
+});
+
+// Optional: Auto-play
+setInterval(() => {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+}, 8000); // change slide every 8 seconds
+
+// Show first slide on page load
+showSlide(current);
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dotsContainer = document.querySelector('.slider-dots');
+let currentSlide = 0;
+let slideInterval = 4000; // 4 seconds
+
+// Create dots
+slides.forEach((_, index) => {
+  const dot = document.createElement('span');
+  dot.classList.add('dot');
+  if (index === 0) dot.classList.add('active');
+  dot.addEventListener('click', () => showSlide(index));
+  dotsContainer.appendChild(dot);
+});
+
+// Show slide function
+function showSlide(index) {
+  slides[currentSlide].classList.remove('active');
+  dotsContainer.children[currentSlide].classList.remove('active');
+
+  slides[index].classList.add('active');
+  dotsContainer.children[index].classList.add('active');
+
+  currentSlide = index;
+}
+
+// Automatic sliding
+setInterval(() => {
+  let nextSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+  showSlide(nextSlide);
+}, slideInterval);
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const expSlides = document.querySelectorAll('.exp-slide');
+  const expPrevBtn = document.querySelector('.experience-slider .prev-btn');
+  const expNextBtn = document.querySelector('.experience-slider .next-btn');
+  const expDotsContainer = document.querySelector('.exp-dots');
+  let expCurrent = 0;
+
+  // Create dots
+  expSlides.forEach((_, index) => {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    if (index === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => showExpSlide(index));
+    expDotsContainer.appendChild(dot);
+  });
+
+  function showExpSlide(index) {
+    expSlides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+    Array.from(expDotsContainer.children).forEach((dot, i) => dot.classList.toggle('active', i === index));
+    expCurrent = index;
+  }
+
+  // Arrows
+  expNextBtn.addEventListener('click', () => {
+    let next = (expCurrent + 1) % expSlides.length;
+    showExpSlide(next);
+  });
+
+  expPrevBtn.addEventListener('click', () => {
+    let prev = (expCurrent - 1 + expSlides.length) % expSlides.length;
+    showExpSlide(prev);
+  });
+
+  // Auto slide every 8s
+  setInterval(() => {
+    let next = (expCurrent + 1) % expSlides.length;
+    showExpSlide(next);
+  }, 8000);
+
+  // Show first slide
+  showExpSlide(expCurrent);
+});
+</script>
+    
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

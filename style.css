@@ -1757,3 +1757,49 @@ body {
 .contact-item a:hover {
     color: #0077b5;
 }
+
+#contact {
+    width: 100%;
+    padding: 100px 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    justify-content: flex-start; /* keeps icon + text aligned nicely */
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #0077b5;
+    width: 30px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #0077b5;
+}

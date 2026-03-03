@@ -1848,3 +1848,36 @@ body {
 .contact-item a:hover {
     color: #0077b5;
 }
+
+/* Clean Contact Section (like Get In Touch style) */
+.contact-clean {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff; /* clean white like top section */
+}
+
+.contact-clean h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #003060; /* your main brand color */
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-links a {
+    font-size: 18px;
+    color: #003060;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contact-links a:hover {
+    color: #005b99;
+    transform: translateY(-2px);
+}

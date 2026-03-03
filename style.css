@@ -1803,3 +1803,48 @@ body {
 .contact-item a:hover {
     color: #0077b5;
 }
+
+#contact {
+    padding: 100px 20px;
+    background-color: #f4f6f8;
+}
+
+.contact-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #0077b5;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #0077b5;
+}
